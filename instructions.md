@@ -19,7 +19,7 @@ We have organized the instructions into three sections.
    3. **Model Code** – Include source code(s) used to generate results in paper unless the code is publicly available elsewhere (e.g., GitHub or Zenodo), in which case include specific version, hash information, or citation allowing the exact source code to be recovered. Include links to any external model codes in the metadata and user guide. If published on GitHub, provide the commit hash associated with the specific version. If available, include a reference (with DOI) to the tagged release in an established data repository.
    4. **Scripts** – Include run scripts if they are necessary for running the model to generate published results. Optionally also include scripts necessary for reproducing the parameters and model configuration for the simulations and input files, for post-processing model outputs to produce the results (e.g., tables and figures in a publication), and for executing the entire workflow used to generate the model results.
 3. **Optional Files** –
-   1. **\*File-level metadata** (FLMD) – Include descriptions of all the data files as one file catalog (e.g., by using the [file-level metadata reporting format](https://github.com/ess-dive-community/essdive-file-level-metadata). Optionally also include one data dictionary for each file type within the data publication describing columns and variables.
+   1. **\*File-level metadata** (FLMD) – Include descriptions of all the data files as one file catalog (e.g., by using the [file-level metadata reporting format](https://github.com/ess-dive-workspace/essdive-file-level-metadata). Optionally also include one data dictionary for each file type within the data publication describing columns and variables.
    2. **Model Testing Data** - Include data files of observations from each location simulated to produce the results in the paper in an open source format (e.g., CSV). If the data are publicly available in another repository, include a reference (with DOI) in the metadata and user guide.
    3. **Documentation or user guide** - Include a readme file (e.g., pdf) for each site-specific or large-scale simulation and provide details on the model name and version number, and required data or code dependencies. Also include a citation for the model code and licensing information if applicable.
 4. **Use in publications** - If publishing model results, cite and include links to the data and code publication(s) in the Data or Code Availability section. Include the citations of the dataset and code publication(s) with DOI(s) in the references section. Examples of Data or Code Availability statements associated with the journal articles researched in this study are provided in Supplemental Table 1 of the associated manuscript.
@@ -40,12 +40,14 @@ The decision tree below provides suggestions for which files to archive, and whe
 
 ### 3. File-Level Metadata
 
-We suggest researchers archiving model data include 2 types of file-level metadata. For more details see [ESS-DIVE File-level Metadata](https://github.com/ess-dive-community/essdive-file-level-metadata). Note that one possible option is to use ncdump to create a metadata CSV file for NetCDF and HDF5 files.
+We suggest researchers archiving model data include 2 types of file-level metadata. For more details see [ESS-DIVE File-level Metadata](https://github.com/ess-dive-workspace/essdive-file-level-metadata). Note that one possible option is to use ncdump to create a metadata CSV file for NetCDF and HDF5 files.
+
+Within the FLMD file, the [standard](https://github.com/ess-dive-workspace/essdive-file-level-metadata/blob/main/RF_FLMD_Standard_Terms.csv) for each sample ID and metadata reporting format related file should be **ESS-DIVE Model Data v1**. If submitting your dataset to ESS-DIVE, include the keyword **ESS-DIVE Model Data Archiving Guidelines** in the package-level metadata.
 
 ![Diagram showing the different components of file-level metadata that can be uploaded as part of a complete data package](<.gitbook/assets/model_data_guidelines_flmd (1).png>)
 
-¹ For more details on how to provide file-level metadata [see here](https://github.com/ess-dive-community/essdive-file-level-metadata)\
-² Details for the [CSV reporting format](https://github.com/ess-dive-community/essdive-csv-structure)\
+¹ For more details on how to provide file-level metadata [see here](https://github.com/ess-dive-workspace/essdive-file-level-metadata)\
+² Details for the [CSV reporting format](https://github.com/ess-dive-workspace/essdive-csv-structure)\
 ³ Report the Local Standard Time offset (+/- #hours) or time zone (abbreviations allowed). Do not report time using Daylight Savings Time\
 ⁴ yyyy-mm-dd\
 ⁵ If providing a non-point location (WGS84 decimal degrees)\

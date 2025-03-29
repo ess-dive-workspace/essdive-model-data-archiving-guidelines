@@ -1,22 +1,18 @@
-# ESS-DIVE Model Data Archiving Guidelines v1.1.0  
+# ESS-DIVE Model Data Archiving Guidelines v1.1.1
 
-These guidelines were informed by input from the U.S. Department of Energy's (DOE) Environmental System Science (ESS) land modeling community and are associated with the manuscript by Simmonds et al. (In Revision). The terrestrial modeling community has unique challenges related to data archiving because the models and simulations they use span scientific domains and address a diversity of research questions. By working with DOE terrestrial modelers we created these guidelines to help users determine which components of model simulations to archive, how to bundle files for data publication, and we discuss data repository tools that can facilitate future archiving of model data. We envision the recommendations being applied to other types of models beyond the terrestrial modeling community. Following the guidelines will help modelers have a clear understanding of what components of their model to archive and also enable model data reuse and integration.
+These guidelines were informed by input from the U.S. Department of Energy's (DOE) Environmental System Science (ESS) land modeling researchers and are associated with the manuscript by Simmonds et al. ([http://doi.org/10.5334/dsj-2022-003](http://doi.org/10.5334/dsj-2022-003)). Terrestrial modeling researchers has unique challenges related to data archiving because the models and simulations they use span scientific domains and address a variety of research questions. By working with DOE terrestrial modelers we created these guidelines to help users determine which components of model simulations to archive, how to bundle files for data publication, and we discuss data repository tools that can facilitate future archiving of model data. We envision the recommendations being applied to other types of models beyond the terrestrial modeling researchers. Following the guidelines will help modelers have a clear understanding of what components of their model to archive and also enable model data reuse and integration.
 
-These guidelines are the culmination of the aforementioned efforts, they will evolve over time based on ongoing community engagement and feedback received on the material in this GitHub repository.  
+These guidelines are the culmination of the aforementioned efforts, they will evolve over time based on feedback received on the material in this GitHub repository.  
 
 ## Getting started  
 To begin using the model data archiving guidelines, visit the [instructions page](instructions.md). There you will find the step-by-step procedure for making decisions about which files to archive.
 
-## Updates in v1.1.0
-Updates to v1.1.0 as of November 18th 2021 include:
-
-- Removing figure of model data archiving guidelines and replacing the figure with a text-based description of the guidelines based on feedback.
-- Updating citation for our `In Revision` manuscript and adding two co-authors.  
-- Updating figure of file-level metadata guidance with new recommendations from v1.0.0 of the file-level metadata reporting format.  
+## Updates in v1.1.1
+In March 2025, a patch version of the Model Data Archiving Guidelines was made to improve the overall experience with the associated reporting format documentation. Additionally, the standard reporting format keyword and standard term were added to the instructions.md file.
 
 ## How to contribute  
 
-If you would like to suggest a change to the model data archiving guidelines, please submit a GitHub issue using one of our [issue templates](https://github.com/ess-dive-community/essdive-community-space-guide/issues/new/choose).  
+If you would like to suggest a change to the model data archiving guidelines, please submit a [GitHub issue](https://github.com/ess-dive-workspace/essdive-model-data-archiving-guidelines/issues).  
 
 If you would prefer to submit feedback over email, or for any other inquiries contact us at ess-dive-support [at] lbl.gov.
 
